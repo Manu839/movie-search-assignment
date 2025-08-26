@@ -44,16 +44,16 @@ print(results)
 ```
 
 ## Repository Structure
-# movie-search-assignment/
-# ├── movie_search_solution.ipynb   # Main notebook
-# ├── movie_search.py               # Core search module
-# ├── movies.csv                    # Dataset
-# ├── requirements.txt              # Dependencies
-# ├── tests/
-# │   └── test_movie_search.py       # Unit tests
-# ├── img/
-# │   └── res.png                    # Example result screenshot
-# └── README.md                     # Documentation
+### movie-search-assignment/
+### ├── movie_search_solution.ipynb   # Main notebook
+### ├── movie_search.py               # Core search module
+### ├── movies.csv                    # Dataset
+### ├── requirements.txt              # Dependencies
+### ├── tests/
+### │   └── test_movie_search.py       # Unit tests
+### ├── img/
+### │   └── res.png                    # Example result screenshot
+### └── README.md                     # Documentation
 
 
 
