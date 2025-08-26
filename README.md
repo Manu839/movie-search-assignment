@@ -3,7 +3,7 @@ This repository contains my solution for the Semantic Search on Movie Plots Assi
 The system uses Sentence Transformers
  (all-MiniLM-L6-v2) to embed movie plots and enables semantic search using cosine similarity.
 
-# Student Information
+## Student Information
 ### Name - Manu Sai
 ### Rollno - 221000032
 ### Branch - CSE
