@@ -1,7 +1,7 @@
 # Movie Semantic Search Assignment
-
-This repository contains my solution for the semantic search on movie plots assignment.
-The system uses [Sentence Transformers](https://www.sbert.net/) to embed movie plots and allows users to search for semantically similar movies using cosine similarity.
+This repository contains my solution for the Semantic Search on Movie Plots Assignment.
+The system uses Sentence Transformers
+ (all-MiniLM-L6-v2) to embed movie plots and enables semantic search using cosine similarity.
 
 ## Example Search Result
 
@@ -10,11 +10,17 @@ The system uses [Sentence Transformers](https://www.sbert.net/) to embed movie p
 ## Setup
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/lowbare3/movie-search.git
-cd movie-search
-python -m venv ai_sys
-ai_sys\Scripts\activate
+git clone https://github.com/your-username/movie-search-assignment.git
+cd movie-search-assignment
+
+# Create and activate a virtual environment
+python -m venv venv
+venv\Scripts\activate      # On Windows
+source venv/bin/activate   # On macOS/Linux
+
+# Install dependencies
 pip install -r requirements.txt
+
 
 ```
 ## Running the notebook
@@ -37,7 +43,17 @@ results = search_movies("spy thriller in Paris", top_n=5)
 print(results)
 ```
 
-
+## Repository Structure
+movie-search-assignment/
+├── movie_search_solution.ipynb   # Main notebook
+├── movie_search.py               # Core search module
+├── movies.csv                    # Dataset
+├── requirements.txt              # Dependencies
+├── tests/
+│   └── test_movie_search.py       # Unit tests
+├── img/
+│   └── res.png                    # Example result screenshot
+└── README.md                     # Documentation
 
 
 
