@@ -4,9 +4,9 @@ The system uses Sentence Transformers
  (all-MiniLM-L6-v2) to embed movie plots and enables semantic search using cosine similarity.
 
 # Student Information
-## Name - Manu Sai
-## Rollno - 221000032
-## Branch - CSE
+### Name - Manu Sai
+### Rollno - 221000032
+### Branch - CSE
 
 ## Example Search Result
 
